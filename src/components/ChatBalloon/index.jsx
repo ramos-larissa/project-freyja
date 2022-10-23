@@ -60,9 +60,9 @@ export default function ChatBallon() {
 
   return (
     <>
-      <div class="text">
+      <div className="text">
         <svg
-          class="corner"
+          className="corner"
           viewBox="0 0 65 62"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"

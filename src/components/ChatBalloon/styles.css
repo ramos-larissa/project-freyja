@@ -13,11 +13,6 @@
  
  
  /* Demo styles */
- body {
-    background: #3498db;
-    padding: 3em;
-    font-family: 'Sora', monospace;
- }
  .text {
     font-size: 6vw;
     word-spacing: 0.2em;
