@@ -1,4 +1,18 @@
 .step-body{
     background: #3498db;
     padding: 3em;
+    margin: 1.25rem 3.125rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.container-img{
+    margin-top: 8rem;
+}
+.img-step1{
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    width: 16rem;
 }
