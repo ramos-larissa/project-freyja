@@ -1,0 +1,30 @@
+.container {
+  background-image: url("../../assets/panda/panda-frame-friends.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 50%;
+  width: -webkit-fill-available;
+}
+
+.menu-options {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+
+.menu-options button{
+    margin: 10px;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    cursor: pointer;
+}
