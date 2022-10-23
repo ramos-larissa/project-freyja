@@ -1,0 +1,23 @@
+#site-page-header-ghost-wrapper {
+    background-color: #0c5c84;
+    padding: 24px;
+}
+
+.header{
+    float: right;
+}
+
+#home{
+    color: white;
+}
+
+#btn-3{
+    border-radius: 10px;
+    background: #d07331;
+    color: white;
+    border-color: ghostwhite;
+    margin-right: 2px;
+}
+
+
+/*azul #0c5c84 amarelo #e1a740 laranja #d07331*/
