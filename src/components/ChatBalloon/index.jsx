@@ -4,7 +4,7 @@ import "./styles.css";
 
 export default function ChatBallon({name, button}) {
   const [text, setText] = useState("");
-  const [buttonContent, setButtonContent] = useState([]);
+  const [buttonContent, setButtonContent] = useState(['', '']);
   
   useEffect(() => {
     setText(name);
@@ -81,8 +81,8 @@ export default function ChatBallon({name, button}) {
         </svg>
         <p>{text}
         </p>
-        <Button variant="contained" color="success" href="/step2">Ja</Button>
-        <Button sx={{ margin: 2 }} color="error" variant="outlined">Nei</Button>
+        <Button sx={{ mr: 2 }} variant="contained" color="success" href={buttonContent[0][1]}>{buttonContent[0][0]}</Button>
+        <Button sx={{ ml: 2 }} color="error" variant="outlined" href={buttonContent[1][1]}>{buttonContent[1][0]}</Button>
       </div>
     </>
   );
