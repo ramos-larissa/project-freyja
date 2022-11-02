@@ -12,11 +12,12 @@ import Typography from "@mui/material/Typography";
 export default function Step2() {
   return (
     <div className="step2-body">
+      <div className="step2-effect-grass"></div>
       <div className="step2-container-img">
         <Card sx={{ maxWidht: 1000 }}>
           <CardContent>
             <Typography
-              sx={{ fontSize: 14 }}
+              sx={{ fontSize: 18}}
               color="text.secondary"
               gutterBottom
             >
@@ -37,7 +38,7 @@ export default function Step2() {
             </Typography>
           </CardContent>
           <CardActions>
-            <Button size="small" href="/step3">GO!</Button>
+            <Button sx={{ ml: 1, mb: 1 }} variant="contained" color="success" size="small" href="/step3">GO!</Button>
           </CardActions>
         </Card>
         <img src={PandaHello} alt="Panda Hello" className="step2-img" />
