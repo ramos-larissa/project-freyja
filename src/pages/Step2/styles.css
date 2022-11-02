@@ -3,7 +3,7 @@
     padding: 3em;
     margin: 1.25rem 3.125rem;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-end;
 }
 .container-img{
