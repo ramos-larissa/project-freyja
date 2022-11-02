@@ -4,6 +4,7 @@ import "../index.css";
 
 import Home from '../pages/Main';
 import Step1 from '../pages/Step1';
+import Step2 from '../pages/Step2';
 
 function RoutesConfig() {
   return (
@@ -11,6 +12,7 @@ function RoutesConfig() {
     <Switch>
         <Route exact path="/" element={<Home />} />
         <Route exact path="/step1" element={<Step1 />} />
+        <Route exact path="/step2" element={<Step2 />} />
     </Switch>
 </BrowserRouter>
 

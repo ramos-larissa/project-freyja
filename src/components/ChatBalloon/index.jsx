@@ -1,7 +1,17 @@
 import React, { useEffect, useState } from "react";
+import { Button } from "@mui/material";
 import "./styles.css";
 
-export default function ChatBallon() {
+export default function ChatBallon({name, button}) {
+  const [text, setText] = useState("");
+  const [buttonContent, setButtonContent] = useState([]);
+  
+  useEffect(() => {
+    setText(name);
+    setButtonContent(button);
+  }, [name]);
+
+
 //   var container = document.querySelector(".text");
 
 //   var speeds = {
@@ -69,6 +79,10 @@ export default function ChatBallon() {
         >
           <path d="M35 3.5L65 6.5V62L0 0L35 3.5Z" fill="white" />
         </svg>
+        <p>{text}
+        </p>
+        <Button variant="contained" color="success" href="/step2">Ja</Button>
+        <Button color="error" variant="outlined">Nei</Button>
       </div>
     </>
   );
