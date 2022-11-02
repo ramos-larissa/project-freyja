@@ -5,13 +5,9 @@ import PandaHello from "../../assets/panda/panda-hello.png";
 import { Button } from "@mui/material";
 import { Link } from "react-router-dom";
 
-export default function Step1() {
-  const text1 =
-    "Oh, hello! Can you help me? I'm having trouble making decisions.";
-  const buttonContent = [["Ja", "/step2"], ["No", "/error"]];
+export default function Step2() {
   return (
     <div className="step-body">
-      <ChatBallon name={text1} button={buttonContent}/>
       <div className="container-img">
         <img src={PandaHello} alt="Panda Hello" className="img-step1" />
       </div>

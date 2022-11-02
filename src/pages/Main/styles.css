@@ -1,7 +1,17 @@
 .main-body{
-    width: 100%;
-    height: 90vh;
+    width: auto;
+    height: auto;
     background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;

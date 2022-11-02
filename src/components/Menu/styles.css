@@ -3,8 +3,8 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  height: 50%;
-  width: -webkit-fill-available;
+  width: 1000px;
+  height: 800px;
 }
 
 .menu-options {
@@ -13,7 +13,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 5rem;
+    margin-top: 15rem;
 }
 
 .menu-options button{
@@ -28,3 +28,4 @@
     color: #000;
     cursor: pointer;
 }
+

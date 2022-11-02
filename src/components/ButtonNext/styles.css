@@ -4,13 +4,13 @@
 .wrapper {
   display: flex;
   justify-content: center;
-  margin: .325rem;
+  margin: 1rem;
 }
 
 .cta {
-    width: 10rem;
+    width: 8rem;
     display: flex;
-    padding: .75rem 2.1875rem;
+    padding: .75rem 1.5rem;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
     font-size: 1.25rem;
