@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 export default function Step1() {
   const text1 =
     "Oh, hello! Can you help me? I'm having trouble making decisions.";
-  const buttonContent = [["Ja", "/step2"], ["No", "/error"]];
+  const buttonContent = [["Ja", "/step2"], ["Nai", "/error"]];
   return (
     <div className="step1-body">
       <div className="step1-effect-grass"></div>
