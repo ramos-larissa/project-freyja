@@ -82,7 +82,7 @@ export default function ChatBallon({name, button}) {
         <p>{text}
         </p>
         <Button variant="contained" color="success" href="/step2">Ja</Button>
-        <Button color="error" variant="outlined">Nei</Button>
+        <Button sx={{ margin: 2 }} color="error" variant="outlined">Nei</Button>
       </div>
     </>
   );

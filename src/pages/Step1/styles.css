@@ -1,19 +1,19 @@
-.step-body{
-    background: #3498db;
+.step1-body{
+    background: var(--background);
     padding: 3em;
     margin: 1.25rem 3.125rem;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
 }
-.container-img{
+.step1-container-img{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 8rem;
 }
 
-.img-step1{
+.step1-img{
     -moz-transform: scaleX(-1);
     -o-transform: scaleX(-1);
     -webkit-transform: scaleX(-1);
