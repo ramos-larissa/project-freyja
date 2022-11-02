@@ -1,0 +1,43 @@
+.error-body{
+    padding: 3em;
+    margin: 1.25rem 3.125rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    width: 75vw;
+}
+.error-container-img{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top: 8rem;
+    width: 75vw;
+}
+
+.error-img{
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1) translateY(175px);
+    width: 10rem;
+}
+
+.error-effect-sky{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--nightsky);
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+
+.error-effect-grass{
+    position: absolute;
+    bottom: -175px;
+    left: 0;
+    width: 100vw;
+    height: 425px;
+    background-color: var(--grass);
+    border-radius: 25%;
+}
