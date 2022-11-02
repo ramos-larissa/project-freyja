@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from "react";
 import "./styles.css";
 
-export default function ButtonNext( data ) {
+export default function ButtonNext( { data } ) {
   const [buttonText, setButtonText] = useState("Next");
   const [buttonHref, setButtonHref] = useState("/");
   
   useEffect(() => {
     
-    setButtonText(data.data[0]);
-    setButtonHref(data.data[1]);
+    setButtonText(data[0]);
+    setButtonHref(data[1]);
     
   }, [""]);
 
