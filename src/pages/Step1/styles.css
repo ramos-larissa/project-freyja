@@ -20,3 +20,13 @@
     transform: scaleX(-1);
     width: 10rem;
 }
+
+.step1-effect-grass{
+    position: absolute;
+    bottom: -45px;
+    left: 0;
+    width: 100vw;
+    height: 200px;
+    background-color: var(--grass);
+    border-radius: 25%;
+}

@@ -11,10 +11,12 @@ export default function Step1() {
   const buttonContent = [["Ja", "/step2"], ["No", "/error"]];
   return (
     <div className="step1-body">
+      <div className="step1-effect-grass"></div>
       <ChatBallon name={text1} button={buttonContent}/>
       <div className="step1-container-img">
         <img src={PandaHello} alt="Panda Hello" className="step1-img" />
       </div>
+
     </div>
   );
 }
