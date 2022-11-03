@@ -13,7 +13,9 @@ export default function Quiz5() {
       <div className="puzzle-runes-container">
         <Card sx={{ m: 2, width: 250 }}>
           <CardContent>
-            <img src={Eihwaz} />
+          <div className="puzzle-runes-img">
+              <img src={Eihwaz} />
+            </div>
             <Typography
               sx={{ fontSize: 14 }}
               color="text.secondary"

@@ -13,7 +13,10 @@ export default function Quiz3() {
       <div className="puzzle-runes-container">
         <Card sx={{ m: 2, width: 250 }}>
           <CardContent>
-            <img src={Inguz} className="runes-inguz-img"/>
+            <div className="puzzle-runes-img">
+              <img src={Inguz} />
+            </div>
+
             <Typography
               sx={{ fontSize: 14 }}
               color="text.secondary"

@@ -13,7 +13,9 @@ export default function Quiz4() {
       <div className="puzzle-runes-container">
         <Card sx={{ m: 2, width: 250 }}>
           <CardContent>
-            <img src={Jera}/>
+          <div className="puzzle-runes-img">
+              <img src={Jera} />
+            </div>
             <Typography
               sx={{ fontSize: 14 }}
               color="text.secondary"

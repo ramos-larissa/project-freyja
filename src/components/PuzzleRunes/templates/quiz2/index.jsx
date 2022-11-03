@@ -13,7 +13,9 @@ export default function Quiz2() {
       <div className="puzzle-runes-container">
         <Card sx={{ m: 2, width: 250 }}>
           <CardContent>
+          <div className="puzzle-runes-img">
             <img src={Gebo} />
+            </div>
             <Typography
               sx={{ fontSize: 14 }}
               color="text.secondary"
