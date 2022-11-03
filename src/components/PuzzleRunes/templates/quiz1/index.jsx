@@ -1,19 +1,20 @@
-import React, { useEffect, useState } from "react";
+import React from 'react'
 import "./styles.css";
-import PuzzleRunes from "../../components/PuzzleRunes";
-import Box from "@mui/material/Box";
 import Card from "@mui/material/Card";
 import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
+import Algiz from "../../../../assets/runes/algiz.webp";
 
-export default function Step2() {
-  return (
-    <div className="step3-body">
-      <div className="step3-container-img">
-        <Card>
+
+export default function Quiz1() {
+    return (
+     <>
+        <div className="puzzle-runes-container">
+        <Card sx={{mt: 10, maxWidth: 500}}>
           <CardContent>
+            <img src={Algiz} />
             <Typography
               sx={{ fontSize: 14 }}
               color="text.secondary"
@@ -22,17 +23,23 @@ export default function Step2() {
               Puzzle
             </Typography>
             <Typography variant="body2">
-              I'm learning about runes, I need your help with my studies.
+                thor
             </Typography>
             <Typography variant="body2">
-              Let's go to the next page and see if you can help me.
+             odin
+            </Typography>
+            <Typography variant="body2">
+             algiz
+            </Typography>
+            <Typography variant="body2">
+             not all above
             </Typography>
           </CardContent>
+          <CardActions>
+            <Button size="small" href="/step3">GO!</Button>
+          </CardActions>
         </Card>
-      </div>
-      <div>
-      <PuzzleRunes />
-      </div>
-    </div>
-  );
+        </div>
+     </>
+    )
 }
