@@ -5,16 +5,16 @@ import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
-import Algiz from "../../../../assets/runes/algiz.webp";
+import Eihwaz from "../../../../assets/runes/eihwaz.webp";
 
-export default function Quiz1() {
+export default function Quiz5() {
   return (
     <>
       <div className="puzzle-runes-container">
         <Card sx={{ m: 2, width: 250 }}>
           <CardContent>
-            <div className="puzzle-runes-img">
-            <img src={Algiz} />
+          <div className="puzzle-runes-img">
+              <img src={Eihwaz} />
             </div>
             <Typography
               sx={{ fontSize: 14 }}

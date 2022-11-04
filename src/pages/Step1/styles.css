@@ -8,9 +8,10 @@
 }
 .step1-container-img{
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     margin-top: 8rem;
+    width: 75vw;
 }
 
 .step1-img{
@@ -26,7 +27,7 @@
     bottom: -45px;
     left: 0;
     width: 100vw;
-    height: 200px;
+    height: 225px;
     background-color: var(--grass);
     border-radius: 25%;
 }
