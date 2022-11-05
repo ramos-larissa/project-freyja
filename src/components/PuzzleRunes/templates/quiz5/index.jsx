@@ -5,25 +5,16 @@ import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
-import Algiz from "../../../../assets/runes/algiz.webp";
-import List from "@mui/material/List";
-import ListItem from "@mui/material/ListItem";
-import ListItemText from "@mui/material/ListItemText";
-import Divider from "@mui/material/Divider";
+import Eihwaz from "../../../../assets/runes/eihwaz.webp";
 
-export default function Quiz1() {
-
-  const optionC = () => {
-    alert("Correct!");
-  }
-
+export default function Quiz5() {
   return (
     <>
       <div className="puzzle-runes-container">
         <Card sx={{ m: 2, width: 250 }}>
           <CardContent>
-            <div className="puzzle-runes-img">
-              <img src={Algiz} />
+          <div className="puzzle-runes-img">
+              <img src={Eihwaz} />
             </div>
             <Typography
               sx={{ fontSize: 14 }}
@@ -32,8 +23,10 @@ export default function Quiz1() {
             >
               Puzzle
             </Typography>
-           <Button>teste</Button>
-           <Button onClick={optionC}>teste 2</Button>
+            <Typography variant="body2">thor</Typography>
+            <Typography variant="body2">odin</Typography>
+            <Typography variant="body2">algiz</Typography>
+            <Typography variant="body2">not all above</Typography>
           </CardContent>
         </Card>
       </div>
