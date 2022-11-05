@@ -3,7 +3,7 @@ import ButtonNext from "../ButtonNext";
 import "./styles.css";
 
 export default function Menu() {
-  const play = ["Play", "/Step1"];
+  const play = ["Play", "/step1"];
   const about = ["About", "/about"];
   return (
     <>

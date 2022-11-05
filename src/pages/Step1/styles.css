@@ -1,22 +1,33 @@
-.step-body{
-    background: #3498db;
+.step1-body{
+    background: var(--background);
     padding: 3em;
     margin: 1.25rem 3.125rem;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
 }
-.container-img{
+.step1-container-img{
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     margin-top: 8rem;
+    width: 75vw;
 }
 
-.img-step1{
+.step1-img{
     -moz-transform: scaleX(-1);
     -o-transform: scaleX(-1);
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
     width: 10rem;
+}
+
+.step1-effect-grass{
+    position: absolute;
+    bottom: -45px;
+    left: 0;
+    width: 100vw;
+    height: 225px;
+    background-color: var(--grass);
+    border-radius: 25%;
 }
