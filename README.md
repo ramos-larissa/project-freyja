@@ -1,4 +1,4 @@
-# App Coupon
+# Game
 
 ### Software prerequisites
 
