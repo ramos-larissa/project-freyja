@@ -1,3 +1,4 @@
+import { Button } from "@mui/material";
 import React, { useEffect, useState } from "react";
 import "./styles.css";
 import Quiz1 from "./templates/quiz1";
@@ -5,6 +6,7 @@ import Quiz2 from "./templates/quiz2";
 import Quiz3 from "./templates/quiz3";
 import Quiz4 from "./templates/quiz4";
 import Quiz5 from "./templates/quiz5";
+import Success from "./templates/success";
 
 export default function PuzzleRunes() {
   const [data, setData] = useState("");
@@ -29,11 +31,21 @@ export default function PuzzleRunes() {
     console.log(quiz3);
   };
 
+  const quiz4ToParent = (childdata) => {
+    setQuiz4(childdata);
+    console.log(quiz4);
+  };
+
+  const quiz5ToParent = (childdata) => {
+    setQuiz5(childdata);
+    console.log(quiz5);
+  };
+
   useEffect(() => {
-    if (quiz1 && quiz2 && quiz3) {
-      setData("success");
+    if (quiz1 && quiz2 && quiz3 && quiz4 && quiz5) {
+      setData(<Success/>);
     }
-  }, [quiz1, quiz2, quiz3]);
+  }, [quiz1, quiz2, quiz3, quiz4, quiz5]);
 
   return (
     <div>
@@ -41,10 +53,10 @@ export default function PuzzleRunes() {
         <Quiz1 quiz1ToParent={quiz1ToParent} />
         <Quiz2 quiz2ToParent={quiz2ToParent} />
         <Quiz3 quiz3ToParent={quiz3ToParent} />
-        <Quiz4 />
-        <Quiz5 />
+        <Quiz4 quiz4ToParent={quiz4ToParent} />
+        <Quiz5 quiz5ToParent={quiz5ToParent} />
       </div>
-      <div className="puzzle-success">{data}</div>
+      {data}
     </div>
   );
 }

@@ -31,7 +31,6 @@ export default function Quiz3({ quiz3ToParent }) {
             <div className="puzzle-runes-img">
               <img src={Inguz} />
             </div>
-
             <div className="puzzle-runes-options">
               {value === 2 ? (
                 <Alert className="puzzle-runes-alert" severity="error">
