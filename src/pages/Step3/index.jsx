@@ -9,10 +9,11 @@ import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 
 export default function Step2() {
+  const [data, setData] = useState("");
   return (
     <div className="step3-body">
-      <div className="step3-container-img">
-        <Card>
+      <div className="step3-container-description">
+        <Card sx={{ maxWidth: 500 }}>
           <CardContent>
             <Typography
               sx={{ fontSize: 14 }}
@@ -30,8 +31,8 @@ export default function Step2() {
           </CardContent>
         </Card>
       </div>
-      <div>
-      <PuzzleRunes />
+      <div className="step3-container-quiz">
+        <PuzzleRunes />
       </div>
     </div>
   );

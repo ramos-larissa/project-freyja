@@ -1,4 +1,23 @@
 .puzzle-runes-container img{
     height: 9.375rem;
 }
-    
+
+.puzzle-runes-options{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 0.8rem;
+}
+
+.puzzle-runes-options Button{
+   width: -webkit-fill-available;
+   background-color: #3498db;
+   margin-bottom: .625rem;
+   color: white;
+}
+
+.puzzle-runes-alert{
+    width: -webkit-fill-available;
+    margin-bottom: .625rem;
+    border-radius: 1.875rem;
+ }

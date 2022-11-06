@@ -1,4 +1,4 @@
-.quiz-container{
+.puzzle-quiz-container{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -13,4 +13,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.puzzle-success{
+    width:100%;
+    margin: 1rem;
+    background-color: greenyellow;
 }
