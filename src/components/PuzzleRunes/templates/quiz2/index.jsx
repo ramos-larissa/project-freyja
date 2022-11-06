@@ -31,8 +31,8 @@ export default function Quiz2({ quiz2ToParent }) {
               <img src={Gebo} />
             </div>
             <div className="puzzle-runes-options">
-              { value === 2 ? (<Alert className="puzzle-runes-alert" severity="error">Oh noes, try again!</Alert>) : value === 1 ? (<div></div>) : (<Button onClick={optionWrong}>teste</Button>) }
-              { value === 1 ? (<Alert className="puzzle-runes-alert" severity="success">Good job!</Alert>) : (<Button onClick={optionRight}>teste</Button>) }
+              { value === 2 ? (<Alert className="puzzle-runes-alert" severity="error">Oh noes, try again!</Alert>) : value === 1 ? (<div></div>) : (<Button onClick={optionWrong}>Freyja</Button>) }
+              { value === 1 ? (<Alert className="puzzle-runes-alert" severity="success">Rune of love, union and marriage</Alert>) : (<Button onClick={optionRight}>Gebo</Button>) }
             </div>
           </CardContent>
         </Card>
