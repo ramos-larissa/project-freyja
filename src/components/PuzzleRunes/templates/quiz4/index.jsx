@@ -39,14 +39,14 @@ export default function Quiz4({ quiz4ToParent }) {
               ) : value === 1 ? (
                 <div></div>
               ) : (
-                <Button onClick={optionWrong}>teste</Button>
+                <Button onClick={optionWrong}>Uruz</Button>
               )}
               {value === 1 ? (
                 <Alert className="puzzle-runes-alert" severity="success">
-                  Good job!
+                  This rune is the materialization of the phrase “you reap what you sow”.
                 </Alert>
               ) : (
-                <Button onClick={optionRight}>teste</Button>
+                <Button onClick={optionRight}>Jera</Button>
               )}
             </div>
           </CardContent>
