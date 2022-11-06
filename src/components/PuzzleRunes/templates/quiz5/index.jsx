@@ -25,7 +25,7 @@ export default function Quiz5({ quiz5ToParent }) {
   return (
     <>
       <div className="puzzle-runes-container">
-        <Card sx={{ m: 2, width: 250 }}>
+        <Card sx={{ m: 2, width: 250}}>
           <CardContent>
             <div className="puzzle-runes-img">
               <img src={Eihwaz} />
