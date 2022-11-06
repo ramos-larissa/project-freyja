@@ -1,13 +1,13 @@
-.step3-body{
-    margin: 1.25rem 3.125rem;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-
+.step3-body {
+  margin: 1.25rem 3.125rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
-.step3-container-description, .step3-container-quiz{
-   width: -webkit-fill-available;
-   display: flex;
-   justify-content: center;
+.step3-container-description,
+.step3-container-quiz {
+  width: -webkit-fill-available;
+  display: flex;
+  justify-content: center;
 }

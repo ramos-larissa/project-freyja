@@ -13,20 +13,17 @@ export default function Step2() {
   return (
     <div className="step3-body">
       <div className="step3-container-description">
-        <Card sx={{ maxWidth: 500 }}>
+        <Card sx={{ width: 815 }}>
           <CardContent>
             <Typography
-              sx={{ fontSize: 14 }}
+              sx={{ fontSize: 24 }}
               color="text.secondary"
               gutterBottom
             >
-              Puzzle
+              What is the correct option?
             </Typography>
             <Typography variant="body2">
-              I'm learning about runes, I need your help with my studies.
-            </Typography>
-            <Typography variant="body2">
-              Let's go to the next page and see if you can help me.
+              Choose the name and corresponding meaning of each rune
             </Typography>
           </CardContent>
         </Card>
