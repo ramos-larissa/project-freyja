@@ -39,14 +39,14 @@ export default function Quiz3({ quiz3ToParent }) {
               ) : value === 1 ? (
                 <div></div>
               ) : (
-                <Button onClick={optionWrong}>teste</Button>
+                <Button onClick={optionWrong}>Uruz</Button>
               )}
               {value === 1 ? (
                 <Alert className="puzzle-runes-alert" severity="success">
-                  Good job!
+                  Rune of achievements and new stages.
                 </Alert>
               ) : (
-                <Button onClick={optionRight}>teste</Button>
+                <Button onClick={optionRight}>Inguz</Button>
               )}
             </div>
           </CardContent>
