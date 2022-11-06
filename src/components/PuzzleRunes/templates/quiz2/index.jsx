@@ -31,8 +31,28 @@ export default function Quiz2({ quiz2ToParent }) {
               <img src={Gebo} />
             </div>
             <div className="puzzle-runes-options">
-              { value === 2 ? (<Alert className="puzzle-runes-alert" severity="error">Oh noes, try again!</Alert>) : value === 1 ? (<div></div>) : (<Button onClick={optionWrong}>Freyja</Button>) }
-              { value === 1 ? (<Alert className="puzzle-runes-alert" severity="success">Rune of love, union and marriage</Alert>) : (<Button onClick={optionRight}>Gebo</Button>) }
+              {value === 2 ? (
+                <Alert className="puzzle-runes-alert" severity="error">
+                  Oh noes, try again!
+                </Alert>
+              ) : value === 1 ? (
+                <div></div>
+              ) : (
+                <Button onClick={optionWrong}>Freyja</Button>
+              )}
+              {value === 1 ? (
+                <Alert className="puzzle-runes-alert" severity="success">
+                  Rune of love, union and marriage. The exchange of gifts,
+                  whether physical or otherwise, is a highly meaningful act, as
+                  is the idea of trade. It is associated with magical rings,
+                  which give kings the ability to share powers with their
+                  followers, as is expected of leaders. The need for exchanged
+                  energies and powers to remain equal in amounts is at the heart
+                  of the rune Gebo.
+                </Alert>
+              ) : (
+                <Button onClick={optionRight}>Gebo</Button>
+              )}
             </div>
           </CardContent>
         </Card>

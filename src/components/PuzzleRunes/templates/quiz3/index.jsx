@@ -43,7 +43,12 @@ export default function Quiz3({ quiz3ToParent }) {
               )}
               {value === 1 ? (
                 <Alert className="puzzle-runes-alert" severity="success">
-                  Rune of achievements and new stages.
+                  Inguz is that potential energy that must accumulate gradually
+                  in storage before being released as a single surge of energy.
+                  Inguz is a rune of male fertility. It represents the process
+                  of a mental ‘seed’ desire implanted by the conscious mind into
+                  the subconscious for incubation and gestation, later to emerge
+                  as a new creation in your life affairs.
                 </Alert>
               ) : (
                 <Button onClick={optionRight}>Inguz</Button>
