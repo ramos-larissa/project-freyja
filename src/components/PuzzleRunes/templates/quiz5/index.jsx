@@ -1,13 +1,27 @@
-import React from "react";
+import React, { useState } from "react";
 import "../styles.css";
+import Eihwaz from "../../../../assets/runes/eihwaz.webp";
 import Card from "@mui/material/Card";
-import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
 import Button from "@mui/material/Button";
-import Typography from "@mui/material/Typography";
-import Eihwaz from "../../../../assets/runes/eihwaz.webp";
+import Alert from "@mui/material/Alert"
 
-export default function Quiz5() {
+export default function Quiz5({ quiz5ToParent }) {
+  const [value, setValue] = useState(0);
+  const success = true;
+
+  const response = (res) => {
+    setValue(res);
+  };
+
+  const optionRight = () => {
+    response(1);
+    quiz5ToParent(success);
+  };
+
+  const optionWrong = () => {
+    response(2);
+  };
   return (
     <>
       <div className="puzzle-runes-container">
@@ -16,17 +30,24 @@ export default function Quiz5() {
           <div className="puzzle-runes-img">
               <img src={Eihwaz} />
             </div>
-            <Typography
-              sx={{ fontSize: 14 }}
-              color="text.secondary"
-              gutterBottom
-            >
-              Puzzle
-            </Typography>
-            <Typography variant="body2">thor</Typography>
-            <Typography variant="body2">odin</Typography>
-            <Typography variant="body2">algiz</Typography>
-            <Typography variant="body2">not all above</Typography>
+            <div className="puzzle-runes-options">
+              {value === 2 ? (
+                <Alert className="puzzle-runes-alert" severity="error">
+                  Oh noes, try again!
+                </Alert>
+              ) : value === 1 ? (
+                <div></div>
+              ) : (
+                <Button onClick={optionWrong}>teste</Button>
+              )}
+              {value === 1 ? (
+                <Alert className="puzzle-runes-alert" severity="success">
+                  Good job!
+                </Alert>
+              ) : (
+                <Button onClick={optionRight}>teste</Button>
+              )}
+            </div>
           </CardContent>
         </Card>
       </div>

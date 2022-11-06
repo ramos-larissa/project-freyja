@@ -1,4 +1,43 @@
 .puzzle-runes-container img{
     height: 9.375rem;
 }
-    
+
+.puzzle-runes-options{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 0.8rem;
+}
+
+.puzzle-runes-options Button{
+   width: -webkit-fill-available;
+   background-color: #3498db;
+   margin-bottom: .625rem;
+   color: white;
+}
+
+.puzzle-runes-alert{
+    width: -webkit-fill-available;
+    margin-bottom: .625rem;
+    border-radius: 1.875rem;
+ }
+
+ .puzzle-success-img{
+    width: 9.375rem;
+    height: 9.375rem;
+    margin: 0 auto;
+ }
+ .puzzle-success-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: -webkit-fill-available;
+ }
+
+ .puzzle-success-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+ }

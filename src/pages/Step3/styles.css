@@ -1,21 +1,13 @@
-.step2-body{
-    padding: 3em;
-    margin: 1.25rem 3.125rem;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-}
-.step2-container-img{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 8rem;
+.step3-body {
+  margin: 1.25rem 3.125rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
-.step2-img{
-    -moz-transform: scaleX(-1);
-    -o-transform: scaleX(-1);
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
-    width: 10rem;
+.step3-container-description,
+.step3-container-quiz {
+  width: -webkit-fill-available;
+  display: flex;
+  justify-content: center;
 }
