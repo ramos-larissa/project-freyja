@@ -33,8 +33,8 @@ export default function Quiz1( {quiz1ToParent}) {
               <img src={Algiz} />
             </div>
             <div className="puzzle-runes-options">
-              { value === 2 ? (<Alert className="puzzle-runes-alert" severity="error">Oh noes, try again!</Alert>) : value === 1 ? (<div></div>) : (<Button onClick={optionWrong}>teste</Button>) }
-              { value === 1 ? (<Alert className="puzzle-runes-alert" severity="success">Good job!</Alert>) : (<Button onClick={optionRight}>teste</Button>) }
+              { value === 2 ? (<Alert className="puzzle-runes-alert" severity="error">Oh noes, try again!</Alert>) : value === 1 ? (<div></div>) : (<Button onClick={optionWrong}>Jera</Button>) }
+              { value === 1 ? (<Alert className="puzzle-runes-alert" severity="success">A powerful rune of physical protection and defense</Alert>) : (<Button onClick={optionRight}>Ihwaz/Algiz</Button>) }
             </div>
           </CardContent>
         </Card>
