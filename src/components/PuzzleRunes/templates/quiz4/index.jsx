@@ -4,7 +4,7 @@ import Jera from "../../../../assets/runes/jera.webp";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import Button from "@mui/material/Button";
-import Alert from "@mui/material/Alert"
+import Alert from "@mui/material/Alert";
 
 export default function Quiz4({ quiz4ToParent }) {
   const [value, setValue] = useState(0);
@@ -28,7 +28,7 @@ export default function Quiz4({ quiz4ToParent }) {
       <div className="puzzle-runes-container">
         <Card sx={{ m: 2, width: 250 }}>
           <CardContent>
-          <div className="puzzle-runes-img">
+            <div className="puzzle-runes-img">
               <img src={Jera} />
             </div>
             <div className="puzzle-runes-options">
@@ -39,14 +39,21 @@ export default function Quiz4({ quiz4ToParent }) {
               ) : value === 1 ? (
                 <div></div>
               ) : (
-                <Button onClick={optionWrong}>teste</Button>
+                <Button onClick={optionWrong}>Uruz</Button>
               )}
               {value === 1 ? (
                 <Alert className="puzzle-runes-alert" severity="success">
-                  Good job!
+                  This rune is the materialization of the phrase “you reap what
+                  you sow”.Jera is a rune of patience and movement with the
+                  harmony with natural tides of life. Moving with such life
+                  rhythms brings abundance and plenty. The cyclical recurrences
+                  in the biosphere and of the astronomical procession spirals
+                  through time, and contains many more profound secrets than
+                  does our common involvement with linear time, calendar dates
+                  and the clock.
                 </Alert>
               ) : (
-                <Button onClick={optionRight}>teste</Button>
+                <Button onClick={optionRight}>Jera</Button>
               )}
             </div>
           </CardContent>
