@@ -26,7 +26,7 @@ export default function TinderCard({
 
   const handleLike = () => {
     if(!positive){
-      set_disabled(true)
+      set_disabled(true);
     }
   }
 
@@ -40,7 +40,7 @@ export default function TinderCard({
 
       <Style.WrapperTop>
         <Style.ContentImg>
-          <img src="https://dummyimage.com/250x250/000/fff" alt="TinderImg" />
+          <img src={img} alt="TinderImg" />
         </Style.ContentImg>
 
         <Style.ContentInfos>

@@ -1,8 +1,5 @@
 import styled from "styled-components";
 
-
-
-
 export const Container = styled.div`
   user-select: none;
   background-color: white;
@@ -47,6 +44,10 @@ export const ContentImg = styled.div`
   height: 250px;
   border-radius: 5px;
   overflow: hidden;
+  
+  img{
+    width: 100%;
+  }
 `
 
 export const ContentInfos = styled.div`
