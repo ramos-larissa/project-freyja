@@ -1,1 +1,21 @@
-body {overflow: hidden; }
+#step4 {
+    overflow: hidden;
+}
+
+.header-step4{
+    background-color: #FAFAFA;
+    border-radius: 30px;
+    margin: 20px 200px;
+    padding: 20px;
+    border-bottom: 1px solid #e5e5e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-step4 img{
+    width: 200px;
+}
+.text-header-step4{
+    margin: 20px;
+}

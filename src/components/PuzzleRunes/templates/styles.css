@@ -18,8 +18,10 @@
 
 .puzzle-runes-alert{
     width: -webkit-fill-available;
+    height: 30rem;
     margin-bottom: .625rem;
     border-radius: 1.875rem;
+    text-align: left;
  }
 
  .puzzle-success-img{

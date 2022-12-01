@@ -42,7 +42,7 @@ export default function Quiz4({ quiz4ToParent }) {
                 <Button onClick={optionWrong}>Uruz</Button>
               )}
               {value === 1 ? (
-                <Alert className="puzzle-runes-alert" severity="success">
+                <Alert className="puzzle-runes-alert" severity="success" >
                   This rune is the materialization of the phrase “you reap what
                   you sow”.Jera is a rune of patience and movement with the
                   harmony with natural tides of life. Moving with such life

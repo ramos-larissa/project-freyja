@@ -41,7 +41,7 @@ export default function Quiz5({ quiz5ToParent }) {
                 <Button onClick={optionWrong}>Isa</Button>
               )}
               {value === 1 ? (
-                <Alert className="puzzle-runes-alert" severity="success">
+                <Alert className="puzzle-runes-alert" severity="success" >
                   Powerful rune, which symbolizes life, death and rebirth,
                   endurance and patience, protection and regeneration. The fear
                   of physical death is one of the great inhibitors of
