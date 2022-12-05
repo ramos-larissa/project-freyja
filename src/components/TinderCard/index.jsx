@@ -1,7 +1,6 @@
 import { useState } from "react"
 import * as Style from "./style"
 
-
 export default function TinderCard({ 
   name, age, social, book, positive, img
 }) {
@@ -28,6 +27,10 @@ export default function TinderCard({
     if(!positive){
       set_disabled(true);
     }
+    if(positive){ 
+      window.location.href = "/step5";  
+    }
+    
   }
 
   return(

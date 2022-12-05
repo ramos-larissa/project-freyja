@@ -9,7 +9,7 @@ import Step2 from "../pages/Step2";
 import Step3 from "../pages/Step3";
 import Step4 from "../pages/Step4";
 import Step5 from "../pages/Step5";
-
+import Step6 from "../pages/Step6";
 function RoutesConfig() {
   return (
     <BrowserRouter>
@@ -20,6 +20,7 @@ function RoutesConfig() {
         <Route exact path="/step3" element={<Step3 />} />
         <Route exact path="/step4" element={<Step4 />} />
         <Route exact path="/step5" element={<Step5 />} />
+        <Route exact path="/step6" element={<Step6 />} />
         <Route exact path="/error" element={<Error/>} />
       </Switch>
     </BrowserRouter>

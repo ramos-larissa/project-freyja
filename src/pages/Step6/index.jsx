@@ -5,7 +5,7 @@ import PandaHello from "../../assets/panda/panda-hello.png";
 
 export default function Step5() {
   const text1 =
-    "YEAAAH! We have a match, are you ready to help me to make a new friend?";
+    "YEAAAH! We have a match, are you ready to help me to make a new frifgdfgfgdgdgfdgdgfsefgend?";
   const buttonContent = [["Ja", "/step6"], ["Nei", "/error"]];
   return (
     <div className="step1-body">
