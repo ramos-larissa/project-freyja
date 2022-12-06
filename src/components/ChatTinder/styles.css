@@ -1,0 +1,11 @@
+.duck-profile{
+    width: 70px;
+    border-radius: 50px;
+    margin-right: 30px;
+}
+
+.header-chat{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}

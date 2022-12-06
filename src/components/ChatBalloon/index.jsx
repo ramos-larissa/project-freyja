@@ -4,18 +4,12 @@ import "./styles.css";
 
 export default function ChatBallon({ name, button }) {
   const [text, setText] = useState("");
-  const [buttonAsk, setButtonAsk] = useState("");
   const [buttonContent, setButtonContent] = useState(['', '']);
 
   useEffect(() => {
     setText(name);
     setButtonContent(button);
-
   }, [name]);
-  setButtonAsk(
-
-  )
-
 
   return (
     <>
